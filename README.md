@@ -3,7 +3,7 @@
 ```
 sudo vim /etc/X11/Xwrapper.config
 
-Ad these lines before allowed_users=console:
+Add these lines before allowed_users=console:
 needs_root_rights=yes
 
 Save file
@@ -11,11 +11,11 @@ Reboot
 ```
 ## Fedora 35 Workstation
 ```
-You have to make that file and It works after that. Fedora installer does not create Xwrapper.config
+Fedora installer does not create Xwrapper.config
 
 sudo vim /etc/X11/Xwrapper.config
 
-Ad these two lines:
+Add these two lines:
 needs_root_rights=yes
 allowed_users=console
 
