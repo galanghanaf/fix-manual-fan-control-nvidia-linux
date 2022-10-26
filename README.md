@@ -1,4 +1,4 @@
-# Fix Manual Fan Control Nvidia
+# Fix Manual Fan Control Nvidia in Linux
 ## Ubuntu 22.04
 ```
 sudo vim /etc/X11/Xwrapper.config
